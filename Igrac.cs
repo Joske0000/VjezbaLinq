@@ -1,6 +1,6 @@
 ﻿namespace VjezbaLinq
 {
-    internal class Player
+    internal class Igrac
     {
         public string Name { get; set; }
         public int Id { get; set; }
@@ -8,7 +8,7 @@
         public string Igra { get; set; }
         public int HoursPlayed { get; set; }
 
-        public Player(string name, int id, int age, string igra, int hoursPlayed)
+        public Igrac(string name, int id, int age, string igra, int hoursPlayed)
         {
             Name = name;
             Id = id;

@@ -9,18 +9,18 @@ namespace VjezbaLinq
         static void Main(string[] args)
         {
           
-            List<Player> players = new List<Player>
+            List<Igrac> players = new List<Igrac>
             {
-                new Player("Ivan", 1, 17, "CS:GO", 5),
-                new Player("Marko", 2, 18, "LoL", 3),
-                new Player("Ivana", 3, 19, "Dota2", 6),
-                new Player("Petar", 4, 20, "CS:GO", 4),
-                new Player("Mate", 5, 21, "LoL", 3),
-                new Player("Maja", 6, 22, "Dota2", 7),
-                new Player("Ivona", 7, 23, "CS:GO", 5),
-                new Player("Ivica", 8, 24, "LoL", 5),
-                new Player("Ivka", 9, 14, "Dota2", 4),
-                new Player("Ivko", 10, 16, "CS:GO", 6)
+                new Igrac("Ivan", 1, 17, "CS:GO", 5),
+                new Igrac("Marko", 2, 18, "LoL", 3),
+                new Igrac("Ivana", 3, 19, "Dota2", 6),
+                new Igrac("Petar", 4, 20, "CS:GO", 4),
+                new Igrac("Mate", 5, 21, "LoL", 3),
+                new Igrac("Maja", 6, 22, "Dota2", 7),
+                new Igrac("Ivona", 7, 23, "CS:GO", 5),
+                new Igrac("Ivica", 8, 24, "LoL", 5),
+                new Igrac("Ivka", 9, 14, "Dota2", 4),
+                new Igrac("Ivko", 10, 16, "CS:GO", 6)
             };
 
 
